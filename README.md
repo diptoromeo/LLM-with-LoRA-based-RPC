@@ -3,17 +3,23 @@ This repository contains a Google Colab-compatible notebook demonstrating how to
 
 # 🚀 Key Features
 ✅ Loads the 8B parameter meta-llama/Meta-Llama-3-8B-Instruct model using transformers.
+
 ✅ Applies parameter-efficient fine-tuning via LoRA using the PEFT library.
+
 ✅ Uses a custom small dataset to train the model on prompt-response pairs.
+
 ✅ Demonstrates LoRA adapter saving and loading.
+
 ✅ Generates output responses after fine-tuning.
 
 # 🛠️ Requirements
 Install required packages:
+
 pip install transformers accelerate peft trl bitsandbytes
 
 You will also need:
 A Hugging Face token with access to meta-llama/Meta-Llama-3-8B-Instruct
+
 GPU support (preferably T4 or better)
 
 # 📂 Notebook Structure
@@ -28,11 +34,14 @@ Section	Description
 
 # 🧪 Example
 prompt = "What are the advantages of solar energy?"
+
 response = model.generate(prompt)
+
 print(response)
 
 # 💡 Tips
 You can modify the dataset list in the notebook to include your custom domain-specific prompts.
+
 For large datasets, consider switching from in-notebook definition to dataset loading via Hugging Face Datasets.
 
 #📎 References
