@@ -46,6 +46,9 @@ For large datasets, consider switching from in-notebook definition to dataset lo
 
 #📎 References
 Meta AI: LLaMA 3
+
 PEFT Library
+
 Transformers Library
+
 TRL (Transformers Reinforcement Learning)
