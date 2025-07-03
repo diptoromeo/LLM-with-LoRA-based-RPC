@@ -1,4 +1,4 @@
-🦙 LLaMA 3 + LoRA Fine-Tuning Example
+# 🦙 LLaMA 3 + LoRA Fine-Tuning Example
 This repository contains a Google Colab-compatible notebook demonstrating how to fine-tune the Meta LLaMA 3 model using LoRA (Low-Rank Adaptation) with Hugging Face's transformers, peft, and trl libraries. It also shows how to generate responses from the fine-tuned model and save/load adapter weights.
 
 🚀 Key Features
